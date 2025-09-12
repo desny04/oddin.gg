@@ -1,0 +1,8 @@
+*{
+    margin:0;
+    padding: 3px;
+}
+body{
+    background-image: url("./image\ \(2\).webp");
+    background-size: cover;
+}
