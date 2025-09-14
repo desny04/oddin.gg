@@ -1,8 +1,92 @@
 *{
     margin:0;
-    padding: 3px;
+    padding: 10px;
 }
 body{
     background-image: url("./image\ \(2\).webp");
     background-size: cover;
 }
+
+.navbar {
+    display:flex;
+    
+}
+.dropdown {
+    display: flex;
+    gap: 5px;
+}
+
+.straightbar{
+    color: rgb(255, 191, 0);
+    font-size:larger;
+    font: weight 100px;;
+    
+}
+
+.products{
+    color: white;
+    
+}
+
+.careers{
+    color: white;
+}
+
+.about{
+    color: white;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondpara{
+    padding-top: 100px;
+    display: inline;
+}
+
+.mobile{
+    text-align: end;
+}
+
+.trulypara{
+    color: white;
+    font-size:x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0%;
+}
+
+.heading{
+    color: white;
+    font-size:300%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:200%;
+}
+
+.genpara{
+    color: gray;
+    font-size:x-large;
+    line-height: 190%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reqademo button{
+    background-color: rgb(255, 191, 0);
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: medium;
+}
+
+button:hover{
+    background: none;
+    color: rgb(255, 191, 0);
+    border: 1px solid rgb(255, 191, 0);;
+}
+
+
+
+
+
+
