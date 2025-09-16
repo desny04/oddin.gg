@@ -2,9 +2,12 @@
     margin:0;
     padding: 10px;
 }
+
 body{
     background-image: url("./image\ \(2\).webp");
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .navbar {
@@ -32,8 +35,16 @@ body{
     color: white;
 }
 
+.careers:hover{
+    color:rgb(255, 191, 0); 
+}
+
 .about{
     color: white;
+}
+
+.about:hover{
+    color:rgb(255, 191, 0);
 }
 
 .second{
@@ -85,6 +96,44 @@ button:hover{
     border: 1px solid rgb(255, 191, 0);;
 }
 
+.global{
+    text-align: center;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.third{
+    background-color: white;
+    height: 25vh;
+}
+.animimage{
+    text-align: center;
+}
+
+.fourth {
+    background-image: url(./fourthbg.webp);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    white-space:wrap;
+}
+
+.esports{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.degree{
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 
 
 
