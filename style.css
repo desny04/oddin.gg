@@ -46,7 +46,7 @@
 .straightbar{
     color: rgb(255, 191, 0);
     font-size:larger;
-    font: weight 100px;;
+    font-weight:100;
     
 }
 
@@ -129,7 +129,7 @@
     font-size: medium;
 }
 
-button:hover{
+.reqademo button:hover{
     background: none;
     color: rgb(255, 191, 0);
     border: 1px solid rgb(255, 191, 0);;
@@ -162,7 +162,7 @@ button:hover{
 }
 
 .esports{
-    padding-top: 50px;
+    padding-top: 100px;
     text-align: center;
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -177,23 +177,107 @@ button:hover{
 }
 
 .maincard{
+    padding-top: 70px;
     display: flex;
     gap: 30px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:center
 }
 
 .cards{
-    width: 300px;
-    height: 300px;
+    width: 340px;
+    height: 420px;
     border: 1px solid black;
     background-color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 
+.oddsfeedimg{
+    padding-top: 40px;
+    padding-left: 30px;
+}
 
+.headofoddsfeed{
+    padding-top: 40px;
+    padding-left: 30px
+}
+
+.paraofoddsfeed{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right:30px
+}
+
+.riskimg{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.headofrisk{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.paraofrisk{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right:30px
+}
+
+.iframeimg{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.headofiframe{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.paraofiframe{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right:30px
+}
+
+.marketimg{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.headofmarket{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.paraofmarket{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right:30px
+}
+
+.buttonoflearnmore{
+    
+    padding-top: 50px;
+    padding-left: 30px
+
+}
+
+.buttonoflearnmore button{
+    height: 50px;
+    width: 200px;
+}
+
+.fifth-header{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.engaging{
+    padding-top: 50px;
+}
 
 
 
