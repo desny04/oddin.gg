@@ -279,5 +279,21 @@
     padding-top: 50px;
 }
 
+.sixth{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sixthpara{
+    padding-top: 200px;
+    padding-left: 10px;
+    display: inline;
+}
+
+.sixthimg{
+    text-align: end;
+    padding-right: 15px;
+    padding-top: 25px;
+}
 
 
