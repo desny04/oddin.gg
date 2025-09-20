@@ -50,9 +50,52 @@
     
 }
 
-.products{
-    color: white;
-    
+.products,.content,.meet{
+    display: flex;
+    justify-content: left;
+    color: rgb(244, 235, 235);
+    background-color: transparent;
+}
+
+.products,.content,.meet{
+    border: none;
+    outline: none;
+}
+
+.english{
+    display: flex;
+    justify-content: left;
+    color: rgb(244, 235, 235);
+    background-color: transparent;
+}
+
+.english{
+    border: none;
+    outline: none;
+}
+
+.opt1{
+    background-color:hsl(232, 9%, 16%);
+    outline: none;
+    border: none;
+}
+
+.opt2{
+    background-color:hsl(232, 9%, 16%);
+    outline: none;
+    border: none;
+}
+
+.opt3{
+    background-color:hsl(232, 9%, 16%);
+    outline: none;
+    border: none;
+}
+
+.opt4{
+    background-color:hsl(232, 9%, 16%);
+    outline: none;
+    border: none;
 }
 
 .careers{
@@ -165,14 +208,19 @@
     padding-top: 100px;
     text-align: center;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
+    font-size:x-large;
+    letter-spacing: 2px;
 
 }
 
 .degree{
     text-align: center;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
+    font-size:medium;
+    letter-spacing: 2px;
+
 
 }
 
