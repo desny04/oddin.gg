@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 105vh;
+    height: 110vh;
 }
 
 .nav{
@@ -495,8 +495,8 @@
 .nine{
     padding-top: 130px;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .ninehead{
@@ -511,51 +511,392 @@
 }
 
 .ninemaincards{
-    padding-top: 70px;
+    padding-top: 100px;
     display: flex;
     gap: 0px;
     align-items: center;
     justify-content:center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .ninecardsone,.ninecardstwo,.ninecardsthree,.ninecardsfour{
     width: 300px;
-    height: 300px;
+    height: 350px;
     background-color: white;
     align-items: start;
 }
 
 .ninecardsone,.ninecardstwo,.ninecardsthree{
-    border-right: 1px solid rgb(86, 86, 86);
+    border-right: 1px solid rgb(223, 223, 223);
 }
 
 .ninecardlogo{
     text-align: left;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .ninecardhead{
     text-align: start;
-    padding-top: 15px;
-    padding-left: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
     padding-right: 30px;
+    font-family:  "Cossette Titre", sans-serif;
+    font-size: larger;
 }
 
 .ninecardpara{
-    padding-top: 15px;
-    padding-left: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
     padding-right: 30px;
     text-align: start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    color: rgb(80, 79, 79);
 }
 
 .ten{
     background-image: url(./image\ \(25\).webp);
     width: 100%;
-    height: 115vh;
+    height: 200vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.tenhead{
+    text-align: center;
+    padding-top: 130px;
+    font-family:  "Cossette Titre", sans-serif;
+    color: white;
+    font-size: 27px;
+}
 
+
+.tenmaincardone{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.tencardone p{
+    font-size: smaller;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tenmaincardtwo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 80px;
+    width: 100%;
+    max-width: 1420px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.tencardtwo{
+    text-align: center;
+}
+
+.tencardtwo p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.elevenhead{
+    padding-top: 50px;
+    text-align: center;
+    font-family:  "Cossette Titre", sans-serif;
+    font-size: x-large;
+}
+
+.eleven-one{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eleven-one-img{
+    text-align: end;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.eleven-one-para{
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline;
+}
+
+.head-of-eleven{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    color: rgb(255, 191, 0);
+    font-weight: 500;
+}
+
+.eleven-one-date{
+    text-align: end;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    color: rgb(80, 79, 79);
+}
+
+.eleven-one-head{
+    display: flex;
+    justify-content:space-between;
+    gap: 48px;
+}
+
+.eleven-one-desc{
+    padding-top: 25px;
+    font-family: "Cossette Titre", sans-serif;
+    font-size:x-large;
+    color:black;
+    font-weight: bold;
+}
+
+
+
+.eleven-one-desc-next{
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+    color: rgb(80, 79, 79);
+}
+
+.eleven-button{
+    
+    padding-top: 180px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: rgb(88, 88, 88);
+
+}
+
+.eleven-button button{
+    height: 51px;
+    width: 190px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: rgb(72, 71, 71);
+    font-weight: 500;
+    background-color:rgb(196, 196, 196);
+    border: 1px solid black;
+}
+
+.eleven-button button:hover{
+    background-color: white;
+}
+
+.eleven-main-cards{
+    padding-top: 100px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content:space-around;
+    padding-bottom: 50px;
+}
+
+.eleven-cards{
+    width: 480px;
+    height: 700px;
+    background-color: white;
+}
+
+.eleven-card-para{
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline;
+}
+
+.head-of-cardeleven{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    color: rgb(255, 191, 0);
+    font-weight: 500;
+}
+
+.eleven-card-date{
+    text-align: end;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    color: rgb(80, 79, 79);
+}
+
+.eleven-card-head{
+    display: flex;
+    justify-content:space-between;
+    gap: 48px;
+}
+
+.eleven-card-desc{
+    padding-top: 25px;
+    font-family: "Cossette Titre", sans-serif;
+    font-size:x-large;
+    color:black;
+    font-weight: bold;
+}
+
+
+
+.eleven-card-desc-next{
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+    color: rgb(80, 79, 79);
+}
+
+.eleven-card-button{
+    
+    padding-top: 130px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: rgb(88, 88, 88);
+
+}
+
+.eleven-card-button button{
+    height: 51px;
+    width: 190px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: rgb(72, 71, 71);
+    font-weight: 500;
+    background-color:rgb(196, 196, 196);
+    border: 1px solid black;
+}
+
+.eleven-card-button button:hover{
+    background-color: white;
+}
+
+.form{
+    background-image: url("./image\ \(53\).webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-head{
+    padding: 100px;
+    text-align: center;
+    font-family: "Cossette Titre", sans-serif;
+    color: white;
+    font-size: xx-large;
+}
+
+.first-inp{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+}
+
+.first-inp input{
+    display: block;
+    background-color:rgba(255,255,255, 0.2);
+    width: 400px;
+    height: 50px;
+    border: none;
+}
+
+.first-inp label{
+    color: rgba(176, 174, 174, 0.938);
+    padding-bottom: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.second-inp label{
+    color: rgba(176, 174, 174, 0.938);
+    padding-bottom: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.second-inp input{
+    background-color:rgba(255,255,255, 0.2);
+    width: 860px;
+    height: 50px;
+    border: none;
+}
+
+.second-inp textarea{
+    background-color:rgba(255,255,255, 0.2);
+    width: 860px;
+    height: 150px;
+    border: none;
+}
+
+.checkbox{
+    color: yellow;
+}
+
+.agree{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(176, 174, 174, 0.938);
+}
+
+.agree b{
+    color: white;
+}
+
+.last-one{
+    display: flex;
+    gap: 10px;
+}
+
+.button-form{
+    text-align: end;
+    padding-left: 70px;
+}
+
+.button-form button{
+    background-color: rgb(255, 191, 0);
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: medium;
+}
+
+.button-form button:hover{
+    background: none;
+    color: rgb(255, 191, 0);
+    border: 1px solid rgb(255, 191, 0);;
+}
+
+.footer{
+    background-color: rgb(14, 15, 22);
+    width: 100%;
+    height: 70vh;
+}
+
+.footer-align{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+}
+
+.esicimg{
+    display:flex;
+}
+
+.last{
+    display: block;
+    padding-left: 100px;
+}
