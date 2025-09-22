@@ -871,6 +871,7 @@
     height: 50px;
     border: none;
     font-size: medium;
+    font-weight: bold;
 }
 
 .button-form button:hover{
@@ -957,6 +958,9 @@
 .last-para{
     color: white;
     padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding-right: 30px;
 }
 
 .eigplus{
@@ -964,6 +968,7 @@
     justify-content: center;
     padding-top: 40px;
     gap: 30px;
+    padding-right: 0px;
 }
 
 .eigplus-link{
